@@ -27,10 +27,10 @@ app.post('/bfhl', (req, res) => {
     }
   }
 
-  fullname: 'Abhishek';
-  Roll_no: '2010991792';
-  dob: '30112001';
-  emailid: 'abhishek1792.be20@chitkara.edu.in';
+  fullname = 'Abhishek';
+  Roll_no = '2010991792';
+  dob = '30112001';
+  emailid = 'abhishek1792.be20@chitkara.edu.in';
 
   if (data) {
     return res.status(200).json({
